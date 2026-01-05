@@ -1,5 +1,4 @@
 * {
-    border: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -13,6 +12,7 @@ body {
 h1 {
     text-align: center;
     font-size: 40px;
+    margin: 10px auto;
 }
 
 img {
@@ -26,7 +26,9 @@ img {
 h3 {
     text-align: center;
     font-size: 21px;
-    margin: 15px 5px auto;
+    margin: 25px 90px;
+    background-color: #385170;
+    padding: 10px;
 }
 
 p {
@@ -35,6 +37,31 @@ p {
     width: 500px;
 }
 
-ulol {
-    padding: 40px;
+ul {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+ol {
+    display: block;
+    padding: 10px 100px;
+    margin: 0 auto;
+}
+
+li {
+    margin: 5px auto;
+}
+
+a {
+    display: inline-block;
+    width: 100px;
+    margin: 0 200px;
+
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #142d4c;
+    background-color: #9fd3c7;
 }
