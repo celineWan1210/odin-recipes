@@ -16,7 +16,8 @@ h1 {
 
 ul {
     list-style-type: none;
-    margin: 20px 120px;
+    width: 500px;
+    margin: 20px auto;
 }
 
 li {
